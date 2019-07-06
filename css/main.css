@@ -90,3 +90,51 @@ body {
 	color: #fff;
 	opacity: 0.3;
 }
+.nav-all {
+position: absolute;
+left: 360px;
+top: 333px;
+width: 300px;
+
+	
+}
+.nav-all a.nav-link {
+	position: relative
+	font-family: "RobotoRegular",
+	sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+z-index: 10;
+}
+/* .nav-all a:hover {
+
+} */
+ /* a.nav-link::before{
+		content: "-----";
+		color: #fff;
+		position: absolute;
+		top: 7px;
+		left: -10px;
+		right: 0;
+		bottom: 0
+} */
+
+
+
+/* .nav-all a.nav-link:hover::before {
+	content: '&mdash;';
+	opacity: .25;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0
+} */
+
+.header-main-carusel .carousel-control-prev {
+	right: 45px; 
+}
