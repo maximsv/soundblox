@@ -91,10 +91,10 @@ body {
 	opacity: 0.3;
 }
 .nav-all {
-	position: absolute;
-	left: 360px;
-	top: 333px;
-	width: 300px;
+position: absolute;
+left: 360px;
+top: 333px;
+width: 300px;
 
 	
 }
@@ -102,31 +102,31 @@ body {
 	position: relative
 	font-family: "RobotoRegular",
 	sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 20px;
-	color: #FFFFFF;
-	z-index: 10;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+z-index: 10;
 }
 a.nav-link:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
-a.nav-link::before{
+  a.nav-link::before{
 
-	content: "----";
-	color: #fff;
-	position: relative;
-	left:-15px;
+		content: "☴";
+		color: #fff;
+		position: relative;
+left:-15px;
 
-	opacity:0;
-	z-index:3;
+ opacity:0;
+ z-index:3;
 }
 a.nav-link:hover:before {
-	color: #fff;
-	opacity:1;
-	z-index: 2;
-	text-decoration: none;
+  color: #fff;
+   opacity:1;
+   z-index: 2;
+   text-decoration: none;
 }
 .header-main-carusel .carousel-control-prev {
 	right: 45px; 
